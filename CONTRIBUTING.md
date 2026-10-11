@@ -87,13 +87,25 @@ Dans votre fork :
 
 ### Depuis le terminal
 
+Pour effectuer ce TP avec le terminal, il est recommandé de suivre ce module [sur la connexion en SSH avec votre compte Github](https://github.com/asardell/git-get-started/blob/main/Chapitre-2.md).
+
 Après avoir cloné votre fork, créez une branche avec
 
 ```bash
 git switch -c correction/crepes
 ```
 
-Cette commande crée la branche et vous place automatiquement dessus.
+Cette commande crée la branche et vous place automatiquement dessus. Pour changer de branche vers une branche déjà existante en local.
+
+```bash
+git switch nom_branche
+```
+
+Pour lister les branches en local
+
+```bash
+git branch
+```
 
 ## 4. Modifier une recette
 
@@ -140,8 +152,22 @@ Ajoutez uniquement le fichier concerné, par exemple avec
 ```bash
 git add recipes/01-crepes/recipe.md
 ```
+ou pour choisir quelles modifications vous souhaitez ajouter au `stages` avant de commit
 
-Adaptez le chemin au fichier que vous avez réellement modifié.
+```bash
+git add --patch
+```
+
+| Touche | Signification | Action |
+|---|---|---|
+| `y` | Yes | Ajoute ce bloc à la staging area |
+| `n` | No | Ignore ce bloc |
+| `s` | Split | Découpe le bloc en blocs plus petits |
+| `q` | Quit | Arrête la commande |
+| `a` | All | Ajoute ce bloc et tous les suivants du fichier |
+| `d` | Don't | Ignore ce bloc et tous les suivants du fichier |
+| `e` | Edit | Modifie manuellement le bloc à ajouter |
+| `?` | Help | Affiche toutes les options disponibles |
 
 Créez ensuite votre commit avec 
 
@@ -188,6 +214,15 @@ Après avoir publié votre branche :
 ### Modèle de description
 
 Votre Pull Request doit expliquer :
+
+```md
+## Problème
+...
+## Correction
+...
+## Vérification
+...
+```
 
 - **Problème :** quelle erreur avez-vous identifiée ?
 - **Correction :** qu'avez-vous modifié ?

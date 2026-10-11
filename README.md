@@ -29,14 +29,17 @@ Comme dans un véritable projet collaboratif, chaque modification doit être pro
 ## 🚀 Comment participer ?
 
 1. Explorez les recettes disponibles dans le dossier [`recipes/`](recipes/).
-2. Choisissez une recette à améliorer.
+2. Choisissez une recette à corriger.
 3. Consultez les consignes de contribution dans [`CONTRIBUTING.md`](CONTRIBUTING.md).
-4. Créez votre propre branche pour travailler sur votre correction.
-5. Modifiez la recette et vérifiez vos changements.
-6. Créez un commit décrivant clairement votre correction.
-7. Publiez votre branche sur GitHub et ouvrez une Pull Request vers le dépôt original.
-8. Faites relire votre contribution par un autre participant.
-9. Prenez en compte les commentaires éventuels avant le merge final.
+4. Sur GitHub online
+   1. Créez votre propre branche pour travailler sur votre correction.
+   2. Modifiez la recette et vérifiez vos changements.
+   3. Créez un commit décrivant clairement votre correction.
+   4. Publiez votre branche sur GitHub
+5. Ouvrez une Pull Request vers le dépôt original.
+6. Faites relire votre contribution par un autre participant.
+7. Prenez en compte les commentaires éventuels avant le merge final.
+8. Vous pouvez refaire l'étape 4 en local avec des lignes de commande (cf: [Github en local](https://github.com/asardell/git-get-started/blob/main/Chapitre-2.md))
 
 ## 📏 Règles de contribution
 
@@ -69,7 +72,7 @@ Il ne s'agit pas seulement de corriger des recettes : l'objectif est de comprend
 
 Vous allez découvrir le cycle complet d'une contribution :
 
-**Fork → Clone → Branch → Modify → Commit → Push → Pull Request → Review → Merge**
+**Fork → Clone → Branch → Modify → Commit → Push → Pull Request → Review → Merge → Rebase**
 
 Les exercices évolueront progressivement, depuis les manipulations dans l'interface GitHub jusqu'à l'utilisation de Git en ligne de commande, à la synchronisation des branches et à la résolution de conflits.
 
