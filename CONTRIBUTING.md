@@ -31,6 +31,7 @@ L'objectif est d'apprendre à collaborer sur un projet avec Git et GitHub, comme
     - [Rebaser une branche de travail](#rebaser-une-branche-de-travail)
   - [11. Résumé des commandes](#11-résumé-des-commandes)
   - [🎉 Merci pour votre contribution !](#-merci-pour-votre-contribution-)
+  - [Liens utiles](#liens-utiles)
 
 
 ## 1. Choisir une recette
@@ -362,3 +363,13 @@ Chaque correction améliore le livre de recettes et permet à chacun de progress
 N'hésitez pas à poser des questions, à demander une review et à aider les autres participants.
 
 Bon atelier et bonne cuisine !
+
+
+## Liens utiles
+
+- [Stratégie de gestion de branches](https://dev.to/juniourrau/6-types-of-git-branching-strategy-g54)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [GitHub Cheat Sheet](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf)
+- [GitHub Get Started](https://docs.github.com/fr/get-started/quickstart/hello-world)
+- [GitHub Set up](https://docs.github.com/fr/get-started/quickstart/set-up-git)
+- [Initiation à GitHub Desktop](https://docs.github.com/fr/desktop/overview/)
